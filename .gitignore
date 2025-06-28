@@ -164,3 +164,4 @@ cython_debug/
 dataset/
 experimental.ipynb
 .env/
+model/

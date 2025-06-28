@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# car-object-detection
-detecting cars on road
-=======
 # Car Object Detection Web Application
 
 ## Project Description

@@ -34,6 +34,9 @@ This project implements a simple yet effective Car Object Detection API using Fa
 
 The application exposes a RESTful API for car detection. You can interact with it using the Swagger UI (at http://localhost:8000/docs) or by sending HTTP requests directly.
 
+Download model from the google drive https://drive.google.com/drive/folders/14XTzvUoT1VSxgV-97GJE-YhnL__S1Wc7?usp=drive_link
+
+
 ### Example: Detecting Cars from an Image
 To detect cars in an image, you will typically send a POST request to the /detect (or similar) endpoint, uploading an image file.
 
@@ -50,4 +53,4 @@ To detect cars in an image, you will typically send a POST request to the /detec
 - Click "Execute".
 
 The response will contain either the class labels and  bounding boxes in JSON data detailing the detections.
->>>>>>> f0fd379 (changed)
+

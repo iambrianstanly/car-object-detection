@@ -1,1 +1,6 @@
+PyYAML
 pandas==2.2.3
+Pillow==11.2.1
+fastapi
+uvicorn
+python-mulitpart

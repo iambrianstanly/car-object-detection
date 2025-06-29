@@ -3,7 +3,8 @@ import tensorflow as tf
 import numpy as np
 
 
-model = tf.keras.models.load_model("model")
+
+model = tf.keras.models.load_model("models/best_model")
 
 
 app = FastAPI()

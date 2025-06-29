@@ -162,6 +162,5 @@ cython_debug/
 #.idea/
 
 dataset/
-experimental.ipynb
 .env/
-model/
+models/

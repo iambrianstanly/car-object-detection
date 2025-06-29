@@ -1,0 +1,25 @@
+seed: 42
+mode: train
+
+data:
+  dataset: car_object_detection
+  path: ./dataset/raw
+  batch_size: 32
+  image_size: [299, 299]
+  valid_size: 0.1
+  test_size: 0.2
+  random_state: 42
+
+model:
+  weights: imagenet
+  output_activation: sigmoid
+  num_classes: 1
+
+
+train:
+  loss: binary_crossentropy
+  bbox_loss: mse
+  optimizer: nadam
+  epochs: 5
+  checkpoint_path: models/best_model
+  
